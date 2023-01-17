@@ -1,0 +1,18 @@
+/* Basic css*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth; /* The scroll-behavior property specifies whether to smoothly animate the scroll position, instead of a straight jump,*/
+}
+body {
+  background: var(--color-bg);
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
