@@ -15,7 +15,10 @@ a {
 li {
   list-style-type: none;
 }
-
+img{
+  max-width: 100%;
+  object-fit: contain;
+}
 /* reusable css */
 .section__padding {
   padding: 4rem 6rem;
