@@ -132,3 +132,23 @@
     display: block;
   }
 }
+
+
+@media screen and (min-width: 1600px) {
+  .gpt3__navbar{
+    padding: 2rem 7rem;
+  }
+  .gpt3__navbar-links_logo img{
+    width: 70.56px;
+    height: 24.02px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .gpt3__navbar{
+    padding: 2rem 10rem;
+  }
+  .gpt3__navbar-links_logo img{
+    width: 75.56px;
+    height: 31.02px;
+  }
+}
