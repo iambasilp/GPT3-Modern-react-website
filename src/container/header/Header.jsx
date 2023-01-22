@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 import people from '../../assets/people.png'
 import ai from '../../assets/ai.png'
+import {AiOutlineArrowUp} from 'react-icons/ai'
 const Header = () => {
   return (
     <div className="gpt3__header section__padding">
@@ -27,7 +28,9 @@ const Header = () => {
         <div className="gpt3__header-image">
           <img src={ai} alt="ai image" />
         </div>
+        <a href="#" className="scrollup"> <AiOutlineArrowUp /> </a>
     </div>
+
   );
 };
 
